@@ -1,0 +1,83 @@
+Guidelines to Attributes Mapping
+
+A: Allegiance to the U.S.
+	Recency
+	Country_Concern
+	Security_Violations
+	Denied
+
+B: Foreign Influence
+	Recency
+	Country_Concern
+	Foreing_Influence
+	Denied
+
+C: Foreign Preference
+	Recency
+	Country_Concern
+	Foreing_Preference
+	Denied
+
+D: Sexual Behavior
+	Recency
+	Child_Sexual_Abuse
+	Child_Pornography
+	Prostitutes
+	Sexual_Behavior
+	Denied
+
+E: Personal Conduct
+	Recency
+	Falsicication(s)
+	WPV_Insider
+	Domestic_Violence
+	Personal_Conduct
+	Denied
+
+F: Financial Considerations
+	Recency
+	Financial
+	Denied
+
+G: Alcohol Consumption
+	Recency
+	Alcohol
+	Denied
+
+H: Drug Involvement
+	Recency
+	Drugs
+	Denied
+
+I: Psychological Conditions
+	Recency
+	Domestic_Violence
+	Traumatic_Life_Event
+	Caused_Death
+	Fmr_Military_LawE
+	Emotional_Mental
+	Denied
+
+J: Criminal Conduct
+	Recency
+	Domestic_Violence
+	Caused_Death
+	Criminal_Conduct
+	Denied
+
+K: Handling Protected Information
+	Recency
+	Handling_PI
+	Denied
+
+L: Outside Activities
+	Recency
+	Country_Concern
+	Falsification(s)
+	Outside_Activities
+	Denied
+
+M: Use of Information Technology
+	Recency
+	Use_InfoSys
+	Denied
