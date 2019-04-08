@@ -15,14 +15,21 @@ import numpy as np
 import subprocess
 import shlex
 
-#open drugs_query.csv as pandas dataframe
+#open drugs_query.csv as pandas dataframe - encoding must be latin-1
 path_to_file = "C:\\Users\\maweb\\Documents\\ThesisCode\\drugs_query.csv"
-data = pd.read_csv(path_to_file, encoding='latin-1')
+data = pd.read_csv(path_to_file, encoding='latin-1') 
 
 #print bar graph of drugs yes/no vs denied yes/no
 print (data.groupby(['Drugs', 'Denied']).size())
 
 #print bar graph to show drugs/denied
+#cannot do this through cmd - look to do jupyter notebook for this
+
+#print out the count for drug types
+#sort through the judgment field
+#if contain marijuana - add to count
+#if contain meth - add to count
+#if cocaine - add to count
 
 
 # set the featured columns for X (Drugs)
@@ -51,7 +58,7 @@ new_pred_class = logreg.predict(X_new)
 
 #SAVE DATAFRAME TO CSV
 # pandas would align them next to each other
-# to ensure the first column is PassengerId, use .set_index
-#drug_data = pd.DataFrame({'Drugs':test.PassengerId, 'Denied':new_pred_class}).set_index('Drugs')
+# to ensure the first column is Drugs, use .set_index
+#drug_data = pd.DataFrame({'Drugs':test.Drugs, 'Denied':new_pred_class}).set_index('Drugs')
 #drug_data.to_csv('drug_df.csv')
 

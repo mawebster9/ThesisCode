@@ -22,12 +22,18 @@ Run the following commands before running code
 
 pip install pandas
 pip install -U scikit-learn scipy matplotlib
+python -m pip install --upgrade pip
+pip install jupyter
 
 
-To run:
+To run code in cmd:
 1. open the command prompt
 2. type python '[File_Path_to_thesis.py'
 
-
+To run code in jupyter notebook
+FOR MORE INFORMATION VISIT THIS LINK: https://jupyter.readthedocs.io/en/latest/running.html#running
+1. install jupyter and upgraded pip
+2. type 'jupyter notebook' in cmd
+3. go to browser and type in 'http://localhost:8888'
 
 
