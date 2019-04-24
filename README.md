@@ -24,6 +24,7 @@ pip install pandas
 pip install -U scikit-learn scipy matplotlib
 python -m pip install --upgrade pip
 pip install jupyter
+pip install statsmodels
 
 
 To run code in cmd:
