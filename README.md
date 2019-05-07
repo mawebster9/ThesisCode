@@ -18,23 +18,28 @@ M: Use of Information Technology
 
 
 Requirements:
+Jupyter Notebooks
+git bash
+python
+pip
+scikit-learn
+
 Run the following commands before running code
+1. Upgrade Pip: python -m pip install --upgrade pip
+2. Python: https://www.python.org/downloads/windows/
+2. Pandas: pip install pandas
+3. SciKit-Learn: pip install -U scikit-learn scipy matplotlib
+4. Jupyter Notebooks: pip install jupyter
 
-pip install pandas
-pip install -U scikit-learn scipy matplotlib
-python -m pip install --upgrade pip
-pip install jupyter
-pip install statsmodels
+
+To run project:
+1. clone repo to host machine
+2. in terminal, navigate to repo location
+3. type 'jupyter notebook'
+4. go to browser and type on 'http://localhost:8888'
 
 
-To run code in cmd:
-1. open the command prompt
-2. type python '[File_Path_to_thesis.py'
+FOR MORE INFORMATION ON JUPYTER NOTEBOOKS, VISIT THIS LINK: https://jupyter.readthedocs.io/en/latest/running.html#running
 
-To run code in jupyter notebook
-FOR MORE INFORMATION VISIT THIS LINK: https://jupyter.readthedocs.io/en/latest/running.html#running
-1. install jupyter and upgraded pip
-2. type 'jupyter notebook' in cmd
-3. go to browser and type in 'http://localhost:8888'
 
 
