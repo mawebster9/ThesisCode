@@ -43,7 +43,7 @@ Before you begin, you need to install certain packages and applications in order
 
 		cd [insert your file path here - do not include it in brackets]
 
-	and hit enter. The file path will look somewhat similar to this (note: it may have more things in between C:\Users\ and \Python\Python37-32   ***   the numbers at the end of the last part (37-32) is specific to the version of python you downloaded):
+	and hit enter. The file path will look somewhat similar to this (note: it may have more things in between C:\Users\ and \Python\Python37-32   ***   the numbers at the end of the last part (37-32) are specific to the version of python you downloaded):
 
 		cd C:\Users\jdoe\Programs\Python\Python37-32
 
