@@ -81,9 +81,15 @@ CLONING THE GITHUB REPOSITORY
 ------------------------------------------------------------
 Now that you have everything installed, it's time to clone the github repository. Add a new folder to your desired location and give it a descriptive name. Go into your newly created folder and copy the file path. Now open up git bash and type 
 
-	git clone https://github.com/mawebster9/ThesisCode
+	git clone https://github.com/mawebster9/MachineLearningMadeEasy
 
 and hit enter. This will pull a copy of the repository onto your machine. It is recommended to copy the repo into your python folder.
+
+For additional git bash help, visit https://www.atlassian.com/git/tutorials/git-bash for help with navigating through git bash.
+
+For aditional git help, visit http://guides.beanstalkapp.com/version-control/common-git-commands.html for help with git itself.
+
+Git mimics Linux file structure definitions, so for Windows machines you will need to replace all of the "\" to "/"" (example: "C:\Users\Programs\git_repo" -> "C:/Users/Programs/git_repo") in the file path when using git bash. This is a problem with Windows machines since the directory paths have different file structures. You also need to include all file folders and files in double quotes ("Example File Name") if they are not one single word and are broken up by spaces.
 
 
 
@@ -94,7 +100,7 @@ Now that you have everything installed, it's time to run the Jupyter Notebooks a
 
 In the powershell command prompt, type 
 
-	jupyter notebooks
+	jupyter notebook
 
 You will see output that resembles this:
 
