@@ -1,0 +1,468 @@
+COMPARISONS FOR FOLDS K = 5, 10, OR 20 AND FOR ALL 5 CLASSIFIERS
+==========================================================================================================================================
+
+FOR TEXT DATA
+
+K = 5
+
+----------------------------------------------------------------------------------------------------------- 75.42%
+Classifier:  RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+                       max_depth=None, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=5,
+                       n_jobs=None, oob_score=False, random_state=None,
+                       verbose=0, warm_start=False)
+
+Scoring Metrics: 
+	* roc_auc score:  0.8282785469089997
+	* f1 score:  0.750223389375263
+	* accuracy score:  0.7541572820770739
+	* precision score:  0.7469582218430635
+	* recall score:  0.7758312020460358
+----------------------------------------------------------------------------------------------------------- 73.56%
+Classifier:  GaussianNB(priors=None, var_smoothing=1e-09)
+
+Scoring Metrics: 
+	* roc_auc score:  0.7356760483331932
+	* f1 score:  0.733853231839809
+	* accuracy score:  0.7356363662869096
+	* precision score:  0.7375965548078538
+	* recall score:  0.7351236146632567
+----------------------------------------------------------------------------------------------------------- 79.13%
+Classifier:  LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='warn', n_jobs=None, penalty='l2',
+                   random_state=None, solver='liblinear', tol=0.0001, verbose=0,
+                   warm_start=False)
+
+Scoring Metrics: 
+	* roc_auc score:  0.8881360675181142
+	* f1 score:  0.8022969911984908
+	* accuracy score:  0.7913412491890986
+	* precision score:  0.7717194757095867
+	* recall score:  0.8455242966751918
+----------------------------------------------------------------------------------------------------------- 75.28%
+Classifier:  DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+                       max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, presort=False,
+                       random_state=None, splitter='best')
+
+Scoring Metrics: 
+	* roc_auc score:  0.7440982853643601
+	* f1 score:  0.7216524573906276
+	* accuracy score:  0.7527593973453456
+	* precision score:  0.7436428571428572
+	* recall score:  0.7174339300937767
+----------------------------------------------------------------------------------------------------------- 76.14%%
+Classifier:  KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=None, n_neighbors=6, p=2,
+                     weights='uniform')
+
+Scoring Metrics: 
+	* roc_auc score:  0.8453987208273798
+	* f1 score:  0.7614371990602891
+	* accuracy score:  0.7614020394626548
+	* precision score:  0.7714006106143334
+	* recall score:  0.7613384484228474
+-----------------------------------------------------------------------------------------------------------
+
+
+
+
+K = 10
+
+----------------------------------------------------------------------------------------------------------- 75.47%
+Classifier:  RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+                       max_depth=None, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=5,
+                       n_jobs=None, oob_score=False, random_state=None,
+                       verbose=0, warm_start=False)
+
+Scoring Metrics: 
+	* roc_auc score:  0.822610877684407
+	* f1 score:  0.753053114772733
+	* accuracy score:  0.7547099991251859
+	* precision score:  0.7716700436366919
+	* recall score:  0.8335294117647057
+----------------------------------------------------------------------------------------------------------- 73.45%
+Classifier:  GaussianNB(priors=None, var_smoothing=1e-09)
+
+Scoring Metrics: 
+	* roc_auc score:  0.7340826330532213
+	* f1 score:  0.7348315738288373
+	* accuracy score:  0.7344615519202169
+	* precision score:  0.7365507658743409
+	* recall score:  0.7412605042016807
+----------------------------------------------------------------------------------------------------------- 79.16%
+Classifier:  LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='warn', n_jobs=None, penalty='l2',
+                   random_state=None, solver='liblinear', tol=0.0001, verbose=0,
+                   warm_start=False)
+
+Scoring Metrics: 
+	* roc_auc score:  0.8902801120448182
+	* f1 score:  0.8019860208424741
+	* accuracy score:  0.7916125739946928
+	* precision score:  0.7780973290819838
+	* recall score:  0.8396638655462185
+----------------------------------------------------------------------------------------------------------- 75.15%
+Classifier:  DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+                       max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, presort=False,
+                       random_state=None, splitter='best')
+
+Scoring Metrics: 
+	* roc_auc score:  0.7423155929038282
+	* f1 score:  0.7346648991176319
+	* accuracy score:  0.7514653136208557
+	* precision score:  0.7625013770906521
+	* recall score:  0.7
+----------------------------------------------------------------------------------------------------------- 75.88%
+Classifier:  KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=None, n_neighbors=6, p=2,
+                     weights='uniform')
+
+Scoring Metrics: 
+	* roc_auc score:  0.8438807189542483
+	* f1 score:  0.7582089466113816
+	* accuracy score:  0.7588111276353775
+	* precision score:  0.7678564852406847
+	* recall score:  0.7586554621848739
+
+
+
+
+
+K = 20
+
+----------------------------------------------------------------------------------------------------------- 75.81%
+Classifier:  RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+                       max_depth=None, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=5,
+                       n_jobs=None, oob_score=False, random_state=None,
+                       verbose=0, warm_start=False)
+
+Scoring Metrics: 
+	* roc_auc score:  0.8464418065701226
+	* f1 score:  0.7625209307325046
+	* accuracy score:  0.7581465919701212
+	* precision score:  0.7426520056703291
+	* recall score:  0.7560457516339868
+----------------------------------------------------------------------------------------------------------- 73.70%
+Classifier:  GaussianNB(priors=None, var_smoothing=1e-09)
+
+Scoring Metrics: 
+	* roc_auc score:  0.7362881263616556
+	* f1 score:  0.7405972527106925
+	* accuracy score:  0.7369561157796451
+	* precision score:  0.740146952720482
+	* recall score:  0.7503267973856209
+----------------------------------------------------------------------------------------------------------- 80.98%
+Classifier:  LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='warn', n_jobs=None, penalty='l2',
+                   random_state=None, solver='liblinear', tol=0.0001, verbose=0,
+                   warm_start=False)
+
+Scoring Metrics: 
+	* roc_auc score:  0.8984407706437697
+	* f1 score:  0.8213369307550625
+	* accuracy score:  0.8098366013071896
+	* precision score:  0.7941392775611041
+	* recall score:  0.8630718954248368
+----------------------------------------------------------------------------------------------------------- 74.27%
+Classifier:  DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+                       max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, presort=False,
+                       random_state=None, splitter='best')
+
+Scoring Metrics: 
+	* roc_auc score:  0.7309640522875815
+	* f1 score:  0.7292874182217803
+	* accuracy score:  0.7426633986928104
+	* precision score:  0.743530204698683
+	* recall score:  0.7673202614379084
+----------------------------------------------------------------------------------------------------------- 76.82%
+Classifier:  KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=None, n_neighbors=6, p=2,
+                     weights='uniform')
+
+Scoring Metrics: 
+	* roc_auc score:  0.8541175402622923
+	* f1 score:  0.7670202071542204
+	* accuracy score:  0.7681909430438841
+	* precision score:  0.7781400476850739
+	* recall score:  0.766830065359477
+
+
+=======================================================================================================================================================
+
+FOR BOOLEAN DATA
+
+K = 5
+
+----------------------------------------------------------------------------------------------------------- 99.12%
+Classifier:  RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+                       max_depth=None, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=5,
+                       n_jobs=None, oob_score=False, random_state=None,
+                       verbose=0, warm_start=False)
+
+Scoring Metrics: 
+	* roc_auc score:  0.9973139134591376
+	* f1 score:  0.9938217625287388
+	* accuracy score:  0.9912250050610029
+	* precision score:  0.9953171985625419
+	* recall score:  0.9915299434970791
+----------------------------------------------------------------------------------------------------------- 87.02%
+Classifier:  GaussianNB(priors=None, var_smoothing=1e-09)
+
+Scoring Metrics: 
+	* roc_auc score:  0.863871159986575
+	* f1 score:  0.8906527037750965
+	* accuracy score:  0.870236669603474
+	* precision score:  0.8047528594456154
+	* recall score:  0.9972382046868524
+----------------------------------------------------------------------------------------------------------- 99.29%
+Classifier:  LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='warn', n_jobs=None, penalty='l2',
+                   random_state=None, solver='liblinear', tol=0.0001, verbose=0,
+                   warm_start=False)
+
+Scoring Metrics: 
+	* roc_auc score:  0.9984472129524743
+	* f1 score:  0.9932820218160119
+	* accuracy score:  0.99288244787167
+	* precision score:  0.9950620120753026
+	* recall score:  0.9915299434970791
+----------------------------------------------------------------------------------------------------------- 99.39%
+Classifier:  DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+                       max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, presort=False,
+                       random_state=None, splitter='best')
+
+Scoring Metrics: 
+	* roc_auc score:  0.9971833897651148
+	* f1 score:  0.9941657168690001
+	* accuracy score:  0.9938575819526061
+	* precision score:  0.9986046777101268
+	* recall score:  0.9897803615271638
+----------------------------------------------------------------------------------------------------------- 97.50%
+Classifier:  KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=None, n_neighbors=6, p=2,
+                     weights='uniform')
+
+Scoring Metrics: 
+	* roc_auc score:  0.985502722933548
+	* f1 score:  0.9767377263424107
+	* accuracy score:  0.9749917788403508
+	* precision score:  0.9638182248317164
+	* recall score:  0.9900568164964462
+
+
+
+K = 10
+
+----------------------------------------------------------------------------------------------------------- 99.27%
+Classifier:  RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+                       max_depth=None, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=5,
+                       n_jobs=None, oob_score=False, random_state=None,
+                       verbose=0, warm_start=False)
+
+Scoring Metrics: 
+	* roc_auc score:  0.9972695055062764
+	* f1 score:  0.9938134573122006
+	* accuracy score:  0.9927368185312524
+	* precision score:  0.9964807803397561
+	* recall score:  0.9903328470912728
+----------------------------------------------------------------------------------------------------------- 87.00%
+Classifier:  GaussianNB(priors=None, var_smoothing=1e-09)
+
+Scoring Metrics: 
+	* roc_auc score:  0.8655398390237024
+	* f1 score:  0.8905921298075476
+	* accuracy score:  0.8700422233532026
+	* precision score:  0.8050703705905422
+	* recall score:  0.9968698379136658
+----------------------------------------------------------------------------------------------------------- 99.48%
+Classifier:  LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='warn', n_jobs=None, penalty='l2',
+                   random_state=None, solver='liblinear', tol=0.0001, verbose=0,
+                   warm_start=False)
+
+Scoring Metrics: 
+	* roc_auc score:  0.9985107351045771
+	* f1 score:  0.9951013125922306
+	* accuracy score:  0.9948327393311759
+	* precision score:  0.9987013789195933
+	* recall score:  0.9915299852094315
+----------------------------------------------------------------------------------------------------------- 99.38%
+Classifier:  DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+                       max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, presort=False,
+                       random_state=None, splitter='best')
+
+Scoring Metrics: 
+	* roc_auc score:  0.996920297312179
+	* f1 score:  0.9941248310142143
+	* accuracy score:  0.9938089435422068
+	* precision score:  0.9979576241224585
+	* recall score:  0.9903328470912728
+----------------------------------------------------------------------------------------------------------- 97.71%
+Classifier:  KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=None, n_neighbors=6, p=2,
+                     weights='uniform')
+
+Scoring Metrics: 
+	* roc_auc score:  0.9880643411987707
+	* f1 score:  0.9786497215230936
+	* accuracy score:  0.9770885289226051
+	* precision score:  0.9677609906752626
+	* recall score:  0.9898730349128574
+
+
+
+K = 20
+
+----------------------------------------------------------------------------------------------------------- 99.37%
+Classifier:  RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+                       max_depth=None, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators=5,
+                       n_jobs=None, oob_score=False, random_state=None,
+                       verbose=0, warm_start=False)
+
+Scoring Metrics: 
+	* roc_auc score:  0.9976842418249735
+	* f1 score:  0.9938597600550144
+	* accuracy score:  0.99366290871983
+	* precision score:  0.9964927998634632
+	* recall score:  0.9911620829270935
+----------------------------------------------------------------------------------------------------------- 87.00%
+Classifier:  GaussianNB(priors=None, var_smoothing=1e-09)
+
+Scoring Metrics: 
+	* roc_auc score:  0.8649083773730064
+	* f1 score:  0.8907554188344244
+	* accuracy score:  0.8700440445257559
+	* precision score:  0.8055264056757668
+	* recall score:  0.9968700912685515
+----------------------------------------------------------------------------------------------------------- 99.48%
+Classifier:  LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=100,
+                   multi_class='warn', n_jobs=None, penalty='l2',
+                   random_state=None, solver='liblinear', tol=0.0001, verbose=0,
+                   warm_start=False)
+
+Scoring Metrics: 
+	* roc_auc score:  0.9985335815901376
+	* f1 score:  0.9950997654967498
+	* accuracy score:  0.9948323576559874
+	* precision score:  0.9987014506290892
+	* recall score:  0.991530237785722
+----------------------------------------------------------------------------------------------------------- 99.46%
+Classifier:  DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+                       max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, presort=False,
+                       random_state=None, splitter='best')
+
+Scoring Metrics: 
+	* roc_auc score:  0.9969307724502245
+	* f1 score:  0.9948246276799366
+	* accuracy score:  0.994588645116537
+	* precision score:  0.9980570788254777
+	* recall score:  0.9915300685191204
+----------------------------------------------------------------------------------------------------------- 97.71%
+Classifier:  KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=None, n_neighbors=6, p=2,
+                     weights='uniform')
+
+Scoring Metrics: 
+	* roc_auc score:  0.9897027394708887
+	* f1 score:  0.9786759932590895
+	* accuracy score:  0.9770873331104722
+	* precision score:  0.9681315897503339
+	* recall score:  0.9895980595276784
+
+
+
+==========================================================================================================================================
+Comparisons for folds 5, 10, and 20
+==========================================================================================================================================
+
+TEXT: BEST FOLD IS K = 20 AND BEST MODELS ARE LRC, KNN, RFC
+------------------------------------------------
+RFC: 75.42%, 75.47%, 75.81%
+GNB: 73.56%, 73.45%, 73.70%
+LRC: 79.13%, 79.16%, 80.98%
+DTC: 75.28%, 75.15%, 74.27%
+KNN: 76.14%%, 75.88%, 76.82%
+
+BEST MODEL PER FOLD: LRC, KNN, RFC, DTC, GNB
+------------------------------------------------
+5: LRC, KNN, RFC, DTC, GNB
+10: LRC, KNN, RFC, DTC, GNB
+20: LRC, KNN, RFC, DTC, GNB
+
+BEST FOLD PER MODEL: 20
+------------------------------------------------
+RFC: 20
+GNB: 20
+LRC: 5
+DTC: 20
+KNN: 20
+
+
+
+==========================================================================================================================================
+
+BOOLEAN: BEST FOLD IS K= 20 AND BEST MODELS ARE LRC, DTC, RFC
+------------------------------------------- 
+RFC: 99.12%, 99.27%, 99.37%
+GNB: 87.02%, 87.00%, 87.00%
+LRC: 99.29%, 99.48%, 99.48%
+DTC: 99.39%, 99.38%, 99.46%
+KNN: 97.50%, 97.71%, 97.71%
+
+BEST MODEL PER FOLD: LRC, DTC, RFC, KNN, GNB
+------------------------------------------------
+5: DTC, LRC, RFC, KNN, GNB
+10: LRC, DTC, RFC, KNN, GNB
+20: LRC, DTC, RFC, KNN, GNB
+
+BEST FOLD PER MODEL: 10 OR 20
+------------------------------------------------
+RFC: 20
+GNB: 5
+LRC: 10 
+DTC: 20
+KNN: 10
+
+Because the increase in accuracy for DTC and RFC from 10 to 20 folds and the decrease in accuracy is not as large for LRC, the folds chosen are 20.
+
