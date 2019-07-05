@@ -70,6 +70,8 @@ Before you begin, you need to install certain packages and applications in order
 		pip install statsmodels
 		pip install pandas
 		pip install jupyter
+		pip install plotly
+		pip install seaborn
 
 6. Install Git Bash
 	In your internet browser, navigate to https://gitforwindows.org/ to download git bash for windows.
