@@ -1,5 +1,5 @@
-# ThesisCode
-This project will build off of the work of Sarah Miller and will delve into the Adjudicative Guidelines and the security clearance appeals cases. This particular body of work will try to take case input data and try to determine if the case should be denied or granted a security clearance.
+# Predicting Outcomes for Adjudication Appeals through Machine Learning
+This project will build off of the work of Sarah Miller and will delve into the Adjudicative Guidelines and the security clearance appeals cases. This particular body of work will try to take case input data and try to determine if the case should be denied or granted a security clearance using machine learning techniques.
 
 There are 13 adjudicative guidelines:
 * A: Allegiance to the U.S.
