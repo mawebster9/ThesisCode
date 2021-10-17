@@ -10,11 +10,14 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import StratifiedKFold
 
+import yaml
+
 
 def replace_true_with_1(df: pd.DataFrame):
     for i in (df.columns.tolist()):
         df[i] = df[i].replace(True,1)
-        
+
+
 def print_scoring_metrics(clf: LogisticRegression, X: np.ndarray, y: np.ndarray):
     classifiers = [RandomForestClassifier(n_estimators=5, random_state=42), GaussianNB(), LogisticRegression(solver='liblinear'), DecisionTreeClassifier(criterion='gini'), KNeighborsClassifier(n_neighbors=6)]
     clf_names = ['RandomForest','GausianNB','LogisticRegression','DecisionTreeClassRegressor', 'KNeighbors']
@@ -35,6 +38,14 @@ def print_scoring_metrics(clf: LogisticRegression, X: np.ndarray, y: np.ndarray)
             print('\t*',metric,'score: ', score)
         scores_df[name] = clf_scores
         clf_scores = []
-
-
         
+
+def load_conf_file(config_file):
+    with open(config_file, "r") as f:
+        config = yaml.safe_load(f)
+        csv_conf = config["csv"]
+        params_conf = config["params"]
+    return csv_conf, params_conf
+        
+
+csv_conf, params_conf = load_conf_file("config.yaml")
