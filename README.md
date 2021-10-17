@@ -62,6 +62,9 @@ Before you begin, you need to install certain packages and applications in order
 	This will install the pip package which includes some other important files. To ensure it installed correctly, type "pip --version". Update the pip package by typing "python -m pip install -U pip".
 
 5. Install common ML packages
+
+	**If you have pipenv installed, after downloading this repository all you need to do is run pipenv install (no package names needed). Pipenv will read the Pipfile and Pipfile.lock files for the project, create the virtual environment, and install all of the dependencies as needed (jupyter or jupyter lab needs to be installed separately).**
+	
 	In the powershell prompt type the following commands, ensuring that they successfully install before you type the next command:
 		
 		pip install numpy
