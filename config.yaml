@@ -1,0 +1,11 @@
+---
+csv:
+    path: 'https://raw.githubusercontent.com/mawebster9/ThesisCode/master/appeals_query.csv'
+    encoding: 'latin-1'
+params:
+    standard_seed: 42
+    test_size: 0.33 # used in training test split
+    logistic_solver: 'liblinear'
+    select_k_best_k: 10 
+    extra_trees_classifier_n_estimators: 100
+    random_forest_classifier_n_estimators: 5
